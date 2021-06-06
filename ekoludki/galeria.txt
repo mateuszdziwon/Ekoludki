@@ -1,0 +1,20 @@
+<div class="galleryZoom"></div>
+                <div class="galleryShortcuts">
+					<div class="miniPhoto photo1">
+						<label for="galleryShortcuts1" class="gallery-label"><img src="img2/1.jpg" class="gallery-preview"/></label>
+						<input type="radio" name="gallery-list" class="gallery-selector" value="1.jpg" id="gallery-item1" />
+						<img src="img2/1.jpg" class="galleryZoom" />
+					</div>
+
+
+
+
+
+					<a href="img2/2.jpg"><div class="miniPhoto photo2"><img src="img2/2.jpg"></div></a>
+					<a href="img2/3.jpg"><div class="miniPhoto photo3"><img src="img2/3.jpg"></div></a>
+					<a href="img2/4.jpg"><div class="miniPhoto photo4"><img src="img2/4.jpg"></div></a>
+					<a href="img2/5.jpg"><div class="miniPhoto photo5"><img src="img2/5.jpg"></div></a>
+					<a href="img2/6.jpg"><div class="miniPhoto photo6"><img src="img2/6.jpg"></div></a>
+					<a href="img2/7.jpg"><div class="miniPhoto photo7"><img src="img2/7.jpg"></div></a>
+					<div class="cb"></div>
+				</div>
