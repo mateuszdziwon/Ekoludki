@@ -156,7 +156,7 @@ body{
    
     width:50%;
     height:100%;
-    background-image: url("/img/kid1edited.jpg");
+    background-image: url("../img/kid1edited.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -376,7 +376,7 @@ body{
     opacity:0.7;
 }
 .photo1{
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
