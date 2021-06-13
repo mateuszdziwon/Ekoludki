@@ -156,7 +156,7 @@ body{
    
     width:50%;
     height:100%;
-    background-image: url("/img/kid1edited.jpg");
+    background-image: url("../img/kid1edited.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -376,42 +376,42 @@ body{
     opacity:0.7;
 }
 .photo1{
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .photo2{
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .photo3{
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .photo4{
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .photo5{
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .photo6{
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .photo7{
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .photo8{
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -527,34 +527,34 @@ body{
     left:0; 
     top: 0; 
     animation: 1s ease-out 0s 1 unwrapUp1;
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .Box2{position: absolute; left:296.5px; top: 0; 
     animation: 1s ease-out 0s 1 unwrapUp2;
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .Box3{position: absolute; left:0; top: 300px;
     animation: 1s ease-out 0s 1 unwrapLeft;
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;}
 .Box4{position: absolute; left:296.5px; top: 300px;
     animation: 1s ease-out 0s 1 unwrapRight;
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;}
 .Box5{position: absolute; left:0; top: 600px;
     animation: 1s ease-out 0s 1 unwrapBottom1;
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;}
 .Box6{position: absolute; left:296.5px; top: 600px;
     animation: 1s ease-out 0s 1 unwrapBottom2;
-    background-image:url("/img/logo.png");
+    background-image:url("../img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;}
 
