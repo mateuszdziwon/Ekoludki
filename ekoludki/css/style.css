@@ -141,9 +141,10 @@ body{
     display:flex;
 }
 .whySpan{
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 800;
     color: #9cbf24;
+    text-align: center;
 }
 .whySpanSmaller{
     font-size: 30px;
@@ -208,7 +209,7 @@ body{
 .ourValuesPhoto{
     width:50%;
     height:100%;
-    background: url("../img/kid2.jpg");
+    background: url("/img/kid2.jpg");
     background-size: 640px 418.5px;
     background-repeat: no-repeat;
     background-position: center;
@@ -244,7 +245,7 @@ body{
 
 .buttonColumn{
     top: 250px;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 .knowmoreButton{
@@ -264,6 +265,9 @@ body{
 }
 .knowmoreButton:hover{
     transform:scale(1.1);
+}
+.button1{
+    margin-top:30px;
 }
 .footerMobile{
     position: absolute;
@@ -348,6 +352,18 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
+}
+.personnel{
+    width:60%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+.personnel h1{
+    font-size: 40px;
+    text-align: center;
 }
 .aboutGallery{
     background-color: #e2ecbe;
@@ -598,15 +614,17 @@ body{
 
 
 .proposal{
-    height: 500px;
+    height: fit-content;
     font-size: 23px;
     line-height: 50px;
-    
+    width:100%;
 }
 .proposalBox{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 .proposal>h1{
     font-size:30px;
@@ -616,12 +634,27 @@ body{
 }
 .offerProposal1{
     text-align: center;
+    width:80%;
 }
 
 .offerProposal2{
-
-    
+    width:80%;
     text-align: center;
+}
+.program{
+    height: fit-content;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.programLeft{
+    width:45%;
+    text-align: justify;
+}
+.programRight{
+    width:45%;
+    line-height: 30px;
 }
 ul{
     list-style-type: square;
@@ -629,20 +662,21 @@ ul{
 }
 
 .day{
-    height: 500px;
+    height: fit-content;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
+    padding: 50px 0;
 }
 .dayText{
-    width: 793px;
-    height: 500px;
+    width: 600px;
+    height: fit-content;
     font-size:23px;
     text-align: justify;
 }
 
 .dayTable{
-    height: 500px;
+    height: fit-content;
 }
 .dayText>h1{
     font-size: 33px;
@@ -657,41 +691,78 @@ ul{
 }
 .dayTable>table{
     height: 500px;
-    width:393px;
+    width:450px;
     text-align: center;
 }
-.offerPrice{
-    height: 500px;
-    position: relative;
+.activities h1{
+    text-align: center;
+    font-size: 35px;
 }
-.priceText{
-
-}
-.priceBox{
-    width:1186px;
+.activities{
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    font-size: 20px;
+    padding: 50px 0;
+    width:80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top:50px;
+    text-align: justify;
+    line-height: 30px;
 }
-.priceBox>table,th,td{
-    border: 2px solid #9cbf24;
-    font-size: 25px;
-    border-collapse: collapse;
-    padding:10px;
+.logopedy{
+    width:40%;
 }
-.priceBox>table{
-    height: 490px;
-    width:1186px;
+.food{
+    width:40%;
+}
+.english h1{
     text-align: center;
-    border-width: 4px;
+    font-size: 35px;
 }
-.priceBox>th,td{
+.english{
+    width:50%;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding:50px 0;
+}
 
+.offerPrice{
+    padding: 60px 0;
+    font-size: 20px;
+    line-height: 30px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
 }
+.priceBox h1{
+    text-align: center;
+    font-size: 35px;
+}
+.priceBox{
+    text-align:center;
+}
+.priceBox ul{
+text-align: left;
+}
+
 
 .offerContact{
-    height: 200px;
+    height: 400px;
     position: relative;
+}
+.offerContactText{
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    line-height: 35px;
 }
 .offerContactText>h1{
     text-align: center;
@@ -699,9 +770,8 @@ ul{
     color:#9cbf24;
     line-height: 100px;
 }
-.offerContactText>button{
-    position: absolute;
-    top:100px;
+.contactButton>button{
+    margin-top:10px;
     height: 70px;
     width:260px;
     font-size: 30px;
@@ -834,6 +904,9 @@ ul{
         background-size: 100%;
         background-position: top;
     }
+    .personnel{
+        width: 80%;
+    }
     .aboutGallery{
         width:100%;
         height: fit-content;
@@ -854,19 +927,31 @@ ul{
     }
     .proposal{
         justify-content: space-between;
+        
+    }
+    .program{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .programLeft, .programRight{
+        width:100%;
+        padding: 20px 0;
     }
     .offerProposal1, .offerProposal2{
-        width:100%;
+        width:90%;
+        text-align: left;
     }
     .day{
-    
+        width: 100%;
+        flex-wrap: wrap;
     }
     .day, .dayText, .dayTable{
         width: 100%;
         height: fit-content;
     }
     .dayText{
-        padding:20px;
+        width:90%;
+        padding:20px 0;
     }
     .dayText > h1{
         line-height:40px;
@@ -876,7 +961,17 @@ ul{
     .dayTable>table{
         margin-left: auto;
         margin-right: auto;
-        font-size: 15px;
+        font-size: 10px;
+    }
+    .activities{
+        flex-wrap: wrap;
+    }
+    .logopedy, .food{
+        width:100%;
+        padding: 30px 0;
+    }
+    .english{
+        width:90%
     }
     .offerPrice{
         width:100%;
@@ -885,13 +980,19 @@ ul{
     .priceBox{
         width: 100%;
         height: fit-content;
+        padding: 0 20px;
     }
-    .priceBox>table{
+    .dayTable>table{
+        width:100%;
+    }
+    table,th,td{
+        font-size: 15px;
+    }
+    .offerContact{
         height: fit-content;
-
     }
-    .priceBox>,table,td{
-        font-size: 11px;
+    .offerContactText{
+        width:100%;
     }
     .gallery{
         flex-wrap: wrap;
@@ -932,6 +1033,7 @@ ul{
     }
     .contact{
         width: 100%;
+        height: fit-content;
     }
     .contactText{
         flex-wrap: wrap;
