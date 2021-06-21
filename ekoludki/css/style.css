@@ -23,7 +23,9 @@ body{
     padding-bottom: 140px;
 }
 
-
+.list{
+    list-style-position: outside;
+}
 
 .top{
     
